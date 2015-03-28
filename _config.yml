@@ -1,1 +1,5 @@
-markdonw: redcarpet
+markdown: redcarpet
+paginate: 10
+
+gems:
+ - helisson.github.io-sitemap
