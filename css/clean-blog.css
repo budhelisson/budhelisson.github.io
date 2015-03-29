@@ -30,7 +30,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #EB4301;
+  color: rgba(189, 0, 0, 0.7);
 }
 a img:hover,
 a img:focus {
@@ -64,11 +64,11 @@ hr.small {
   letter-spacing: 1px;
 }
 .selected {
-  color: #EFFF00 !important;
+  color: #404040 !important;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    background: transparent;
+    background: rgba(184, 0, 0, 0.9);
     border-bottom: none !important;
   }
   .navbar-custom .navbar-brand {
@@ -106,7 +106,7 @@ hr.small {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
-    background-color: rgba(255, 136, 0, 0.9);
+    background-color: rgba(184, 0, 0, 0.95);
     border-bottom: 1px solid #F06101;
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
@@ -117,14 +117,14 @@ hr.small {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #EFFF00;
+    color: #404040;
   }
   .navbar-custom.is-fixed .nav li a {
     color: white;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #EFFF00;
+    color: #404040;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -139,10 +139,10 @@ hr.small {
   background-color: red;
   background: repeat center center;
   background-attachment: scroll;
-  -webkit-background-size: inherit;
-  -moz-background-size: inherit;
-  background-size: inherit;
-  -o-background-size: inherit;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   margin-bottom: 50px;
 }
 .intro-header .site-heading,
@@ -155,7 +155,7 @@ hr.small {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 200px 0;
+    padding: 124px 0;
   }
 }
 .intro-header .site-heading,
@@ -165,11 +165,11 @@ hr.small {
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 70px;
+  font-size: 50px;
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 32px;
+  font-size: 24px;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -192,7 +192,7 @@ hr.small {
 }
 .intro-header .post-heading .subheading {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   margin: 10px 0 30px;
   font-weight: 600;
 }
@@ -219,7 +219,7 @@ hr.small {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #EB4301;
+  color: rgba(189, 0, 0, 0.7);
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -243,7 +243,7 @@ hr.small {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #EB4301;
+  color: rgba(189, 0, 0, 0.7);
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -267,6 +267,8 @@ hr.small {
   border-bottom-left-radius: 5px;
 }
 footer {
+  margin-top: 50px;
+  background-color: rgba(189, 0, 0, 0.7);
   padding: 50px 0 65px;
 }
 footer .list-inline {
@@ -274,6 +276,7 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
+  color: white;
   font-size: 14px;
   text-align: center;
   margin-bottom: 0;
@@ -323,7 +326,7 @@ footer .copyright {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #EB4301;
+  color: rgba(189, 0, 0, 0.7);
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -343,8 +346,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #EB4301;
-  border: 1px solid #EB4301;
+  background-color: rgba(189, 0, 0, 0.7);
+  border: 1px solid rgba(189, 0, 0, 0.7);
   color: white;
 }
 .pager {
@@ -364,8 +367,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #EB4301;
-  border: 1px solid #EB4301;
+  background-color: rgba(189, 0, 0, 0.7);
+  border: 1px solid rgba(189, 0, 0, 0.7);
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -394,5 +397,6 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #EB4301;
+  webkit-tap-highlight-color: rgba(189, 0, 0, 0.7);
 }
+
