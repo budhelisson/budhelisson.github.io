@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Bem-vindo ao Design com Energético"
+title: "Segundo Post do Blog"
 description: "Exemplo da primeira postagem do blog."
-author: "Helisson Santos"
+author: "Bud Helisson"
 coverImg: "post-bg.jpg"
 ---
 
