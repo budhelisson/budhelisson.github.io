@@ -1,2 +1,2 @@
-# budhelisson.github.io
-Blog | 2 Sentidos
+2 Sentidos | Blog
+Personal website/blog
