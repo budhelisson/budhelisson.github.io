@@ -3,15 +3,15 @@
  * Copyright 2014 Start Bootstrap
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
+
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #404040;
 }
 p {
   line-height: 1.5;
   margin: 30px 0;
-  font-weight: lighter;
 }
 p a {
   text-decoration: underline;
@@ -26,11 +26,11 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #5EB8FF;
+  color: #404040;
 }
 a:hover,
 a:focus {
-  color: rgb(81, 160, 221);
+  color: #0085a1;
 }
 a img:hover,
 a img:focus {
@@ -55,7 +55,7 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  font-weight: 600;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
@@ -64,12 +64,12 @@ hr.small {
   letter-spacing: 1px;
 }
 .selected {
-  background-color: rgba(255, 255, 255, 0.15) !important;
+  color: #F9FF00 !important;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    background: rgba(184, 0, 0, 0.9);
-    border-bottom: none !important;
+    background: transparent;
+    border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
     color: white;
@@ -106,8 +106,8 @@ hr.small {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
-    background-color: rgba(184, 0, 0, 0.95);
-    border-bottom: 1px solid #F06101;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #f2f2f2;
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
@@ -117,14 +117,14 @@ hr.small {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #404040;
+    color: #0085a1;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: white;
+    color: #404040;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #404040;
+    color: #0085a1;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -136,8 +136,8 @@ hr.small {
   }
 }
 .intro-header {
-  background-color: rgb(25, 209, 242);
-  background: repeat center center;
+  background-color: #808080;
+  background: no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -148,14 +148,14 @@ hr.small {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 125px 0 100px;
+  padding: 100px 0 50px;
   color: white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 125px 0;
+    padding: 150px 0;
   }
 }
 .intro-header .site-heading,
@@ -173,13 +173,13 @@ hr.small {
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 300;
   margin: 10px 0 0;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 100px;
+    font-size: 70px;
   }
 }
 .intro-header .post-heading h1 {
@@ -192,12 +192,12 @@ hr.small {
 }
 .intro-header .post-heading .subheading {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lora', 'Times New Roman', serif;
   font-style: italic;
   font-weight: 300;
   font-size: 20px;
@@ -219,7 +219,7 @@ hr.small {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #2F2E2E;
+  color: #0085a1;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -243,7 +243,7 @@ hr.small {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #2F2E2E;
+  color: #0085a1;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -267,8 +267,6 @@ hr.small {
   border-bottom-left-radius: 5px;
 }
 footer {
-  margin-top: 50px;
-  background-color: rgb(0, 140, 251);
   padding: 50px 0 65px;
 }
 footer .list-inline {
@@ -276,7 +274,6 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  color: white;
   font-size: 14px;
   text-align: center;
   margin-bottom: 0;
@@ -326,7 +323,7 @@ footer .copyright {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: rgba(189, 0, 0, 0.7);
+  color: #0085a1;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -346,8 +343,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: rgba(189, 0, 0, 0.7);
-  border: 1px solid rgba(189, 0, 0, 0.7);
+  background-color: #0085a1;
+  border: 1px solid #0085a1;
   color: white;
 }
 .pager {
@@ -367,8 +364,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: rgba(189, 0, 0, 0.7);
-  border: 1px solid rgba(189, 0, 0, 0.7);
+  background-color: #0085a1;
+  border: 1px solid #0085a1;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -381,12 +378,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: rgba(25, 209, 242);
+  background: #0085a1;
 }
-a::selection {
+::selection {
   color: white;
   text-shadow: none;
-  background: rgb(0, 140, 251);
+  background: #0085a1;
 }
 img::selection {
   color: white;
@@ -397,5 +394,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: rgba(189, 0, 0, 0.7);
+  webkit-tap-highlight-color: #0085a1;
 }
