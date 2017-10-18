@@ -1,5 +1,5 @@
-markdown: redcarpet
+kramdown: redcarpet
 paginate: 10
 
 gems:
- - helisantos.github.io-sitemap
+ - budhelisson.github.io-sitemap
